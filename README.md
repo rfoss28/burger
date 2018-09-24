@@ -1,1 +1,3 @@
-# burger
+# Eat Da Burger
+
+## Installation Instructions
