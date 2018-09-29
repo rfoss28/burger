@@ -17,7 +17,7 @@
         <li>
           
             {{!-- //{{}} --}}
-            {{this.id this.burger_name}}
+            {{this.burger_name}}
             <form action="/{{this.id}}?_method=PUT" method="POST"></form>
             <input type="hidden" name="devoured" value="true">
             <button type="submit">Devour It!</button>
