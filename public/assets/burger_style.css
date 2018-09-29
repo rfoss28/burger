@@ -1,0 +1,14 @@
+img{
+    margin :auto;
+}
+
+body{
+    background-color: rgb(81,172,242);
+}
+
+.jumbotron{
+    background-color: rgb(247,185,8);
+}
+h1 , h3{
+    font-family: 'Permanent Marker', cursive;
+}

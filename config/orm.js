@@ -45,6 +45,8 @@ var orm = {
   },
 
   insertOne: function(table, cols, vals, cb) {
+    var queryString = "INSERT INTO " + table;
+
     queryString += " (";
     queryString += cols.toString();
     queryString += ") ";
@@ -52,7 +54,9 @@ var orm = {
     queryString += printQuestionMarks(vals.length);
     queryString += ") ";
 
-    connection.query(queryString, function(err, result) {
+    console.log(queryString);
+
+    connection.query(queryString, vals, function(err, result) {
       if (err) {
         throw err;
       }

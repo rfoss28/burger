@@ -1,4 +1,4 @@
  INSERT INTO burgers(burger_name, devoured)
-  VALUES ("Cheesburger",false),
-    ("Double Cheeseburger", false),
-    ("Bacon Cheeseburger", false);
+  VALUES ("Cheesburger",true),
+    ("Double Cheeseburger", true),
+    ("Bacon Cheeseburger", true);
