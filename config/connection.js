@@ -4,7 +4,7 @@ var mysql = require("mysql");
 var connection ;
 
 if(process.env.CLEARDB_DATABASE_URL){
-  connection.mysql.createConnection(process.env.CLEARDB_DATABASE_URL);
+  connection=mysql.createConnection(process.env.CLEARDB_DATABASE_URL);
 }
 
 else{
