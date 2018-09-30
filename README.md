@@ -9,4 +9,4 @@ Clone the repo, NPM install, use the schema and seed files to recreate the DB.
 
 ## Live Link on Heroku
 
-https://bootcampburgerapp.herokuapp.com/
+https://calm-cove-56486.herokuapp.com/
