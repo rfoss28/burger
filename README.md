@@ -3,7 +3,7 @@ This app will let you create burgers and "Devour them.  The burger names are sto
 
 This app requires Express, Body Parser, Express-Handlebars, Method Override and MySql.
 
-## Installation
+## Installation Instructions
 
 Clone the repo, NPM install, use the schema and seed files to recreate the DB.
 
